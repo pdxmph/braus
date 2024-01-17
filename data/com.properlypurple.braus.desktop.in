@@ -6,3 +6,4 @@ Type=Application
 Categories=GTK;Network;
 StartupNotify=true
 MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;
+Icon=/usr/share/icons/Adwaita/symbolic/legacy/web-browser-symbolic.svg

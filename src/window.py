@@ -58,7 +58,7 @@ class BrausWindow(Gtk.ApplicationWindow):
         #headerbar entry {
             background: rgba(0,0,0,0.4);
             color: #ffffff;
-            font-size: 0.6em;
+            font-size: 1em;
             border-radius: 10px;
             border: 1px solid rgba(0,0,0, 0.4);
             outline: none;
@@ -84,7 +84,7 @@ class BrausWindow(Gtk.ApplicationWindow):
             background: none;
             border: 1px solid rgba(255,255,255, 0.4);
             padding: 18px 12px;
-            font-size: 0.6rem;
+            font-size: 1rem;
         }
         #mainbox button:hover {
             background-color: rgba(255,255,255,0.1);
@@ -278,4 +278,3 @@ class BrausWindow(Gtk.ApplicationWindow):
         elif response_id == Gtk.ResponseType.REJECT:
             #don't ask again
             app.settings.set_boolean("ask-default", False)
-    
