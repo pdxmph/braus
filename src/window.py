@@ -82,7 +82,7 @@ class BrausWindow(Gtk.ApplicationWindow):
 
         #mainbox button {
             background: none;
-            border: 1px solid rgba(255,255,255, 0.4);
+            border: 2px solid rgba(255,255,255, 0.8);
             padding: 18px 12px;
             font-size: 1rem;
         }
